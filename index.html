@@ -12,32 +12,78 @@
 </head>
 <body>
     <header>
-        <button class="burger" onclick="toggleMenu()"></button>
-         <div class="menu">
+        <div class="logo"><button><img src="img/violet (1).png" alt=""></button></div>
+         <div class="links">
             <nav>
-                <a href="#" style="animation-delay: 0.2s;">Inicio</a>
-                <a href="#" style="animation-delay: 0.3s;">Sobre Mi</a>
-                <a href="#" style="animation-delay: 0.4s;">Cerftificaciones</a>
-                <a href="#" style="animation-delay: 0.5s;">Contactame</a>
+                <a href="index.html">Inicio</a>
+                <a href="#objetivo">Mi Objetivo</a>
+                <a href="#certificaciones">Cerftificaciones</a>
+                <a href="https://api.whatsapp.com/send?phone=5492932612097">Contactame</a>
             </nav>
          </div>
     </header>
-    <section class="banner">
+    <section class="banner" id="banner">
       
-        <div>
+        <div id="bannertext" class="hidden">
             <h2>Soy Viviana Fumis</h2>
-            <h3>Coach Ontológico y Vocacional</h3>
+            <h3>Coach Ontológico, Vocacional y Deportivo</h3>
         </div>
         <img src="img/Perfil.jpg">
     </section>
-    <section>
-        <h2>Sobre Mi</h2>
-        <p>Mi objetivo como coach es guiarte en el proceso de encontrar una carrera o camino profesional que te haga sentir realizado.
+    <section class="servicios">
+        <h2 class="hidden">Mis Servicios</h2>
+        <div class="servicio-art">
+            <div class="articulo hidden">
+                <h3>Coach Oncológico</h3>
+                <div class="articulo-p">
+                    <p>Como Coach Ontológico puedo ayudar a mis clientes a superar sus limitaciones, y a desarrollar nuevas habilidades y competencias. Acompaño a mi cliente en su camino de crecimiento personal y de auto-realización, para que pueda vivir su vida de manera más plena y satisfactoria.     </p>
+                </div>  
+            </div>
+            <div class="articulo hidden dif">
+                <h3>Coach Vocacional</h3>
+                <div class="articulo-p">
+                    <p>Como Coach Vocacional tengo como objetivo ayudar a mis clientes a encontrar un trabajo, carrera o emprendimiento que les apasione y les permita desarrollar su potencial. A través de las sesiones de coaching vocacional proporciono una guía personalizada para el logro de objetivos profesionales, generando un impacto positivo en el bienestar y la realización personal de sus clientes.
+
+                    </p>
+                </div>  
+            </div>
+            <div class="articulo hidden">
+                <h3>Coach Deportivo</h3>
+                <div class="articulo-p">
+                    <p>
+                        Trabajo en conjunto con el deportista para mejorar su rendimiento físico y emocional, ayudándolo a alcanzar sus objetivos deportivos y personales. 
+Dentro de un club, conformo la triada con el Técnico y el Preparador físico con el objetivo de logra el mejor rendimiento de los equipos.
+
+                    </p>
+                </div>  
+            </div>
+            
+        </div>
+    </section>
+    <br id="certificaciones">
+    <section class="certificados">
+        <h2 class="hidden">Mis Certificaciones</h2>
+        <div> 
+            <img src="img/CERTIFICADO_page-0001.jpg"  class="hidden">
+            <img src="img/CERTIFICADO2_page-0001.jpg" class="hidden">
+            <img src="img/CERTIFICADO 3_page-0001.jpg" class="hidden">
+            <img src="img/CamScanner 07-06-2023 14.26_page-0001.jpg" class="hidden">
+        </div>
+    </section>
+    <br id="objetivo">
+    <section class="sobre-mi">
+        <div class="sobre-mi-container">
+            <h2 class="hidden">Mi objetivo</h2>
+        <p class="hidden">Mi objetivo como coach es guiarte en el proceso de encontrar una carrera o camino profesional que te haga sentir realizado.
             Mi enfoque se basa en ayudarte a conocerte mejor, identificar tu fortalezas y debilidades, gustos y habilidades, para luego explorar las opciones laborales que mejor se ajusten a ti. Nuestra colaboración podría incluir varias etapas desde la exploración de intereses hasta el diseño de un plan de acción para alcanzar tus metas profesionales.
             Como coach, me enfoco en escucharte y hacer preguntas pertinentes para descubrir tus motivaciones, desafíos y metas a largo plazo. Utilizo herramientas y técnicas de coaching para ayudarte a desarrollar habilidades como la toma de decisiones y la gestión del tiempo además de fortalecer tus habilidades de comunicación y liderazgo.
             Espero poder acompañarte en este camino tan importante para ti y ayudarte a alcanzar la satisfacción laboral y la realización personal que mereces.
-             Si estás listo para empezar a trabajar juntos, ¡contáctame!</p>
+             Si estás listo para empezar a trabajar juntos, <a href="https://api.whatsapp.com/send?phone=5492932612097">¡contáctame!</a></p>
+        </div>
+        
     </section>
+   
+
 </body>
 <script src="app.js"></script>
 </html>
