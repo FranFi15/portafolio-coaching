@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     background-image: url(img/pxfuel.jpg);
     background-size: cover;
 }
@@ -14,7 +14,10 @@ header{
     position: fixed;
     height: 90px;
     width: 100%;
-    background-color:rgba(215, 224, 221, 0.95);
+    background-color:rgba(215, 224, 221);
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #5015bd;
 
     z-index: 9999;
 }
@@ -195,6 +198,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 40%;
     height: 80%;
     margin: 20px;
@@ -202,8 +206,8 @@ button{
 .articulo h3{
     margin-top: 40px;
     color: #5015bd;
-    font-weight: 600;
-    font-size: 25px;
+    font-weight: 400;
+    font-size: 30px;
 }
 
 .articulo-p{
@@ -215,4 +219,34 @@ button{
 .articulo-p{
     height: 100%;
     overflow:hidden;
+}
+footer{
+    border-top: solid;
+    border-color: #5015bd;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    margin-top: 100px;
+    padding-top:20px ;
+    background-color: rgba(233, 229, 229, 0.8);
+    color: black;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 90%;
+    margin-left: 40px;
+    font-size: 14px;
+}
+.foot img{
+    height: 90%;
+    margin-right: 40px;
+}
+.terminos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
 }
