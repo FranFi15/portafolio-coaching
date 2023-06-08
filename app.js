@@ -8,7 +8,7 @@ const observer = new IntersectionObserver(
       entry.target.classList.toggle("mostrar", entry.isIntersecting);
     });
   },
-  { threshold: 0.5 }
+  { threshold: 0.2 }
 );
 
 seccionesOcultas.forEach((seccion) => observer.observe(seccion));
