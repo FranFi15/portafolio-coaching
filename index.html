@@ -13,14 +13,15 @@
 </head>
 <body>
     <header>
-        <div class="logo"><button><a href="index.html"><img src="img/violet (1).png"></a></button>
-        </div>
-         <div class="links">
+        <div class="logo"><a href="index.html"><img src="img/violet (1).png"></a></div>
+        <button class="burger" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+         <div class="menu links">
             <nav>
-                <a href="index.html">Inicio</a>
-                <a href="#objetivo">Mi Objetivo</a>
-                <a href="#certificaciones">Cerftificaciones</a>
-                <a href="https://api.whatsapp.com/send?phone=5492932612097">Contactame</a>
+                <a href="index.html" onclick="toggleMenu()">Inicio</a>
+                <a href="#servicio" onclick="toggleMenu()">Mis Servicios</a>
+                <a href="#certificaciones" onclick="toggleMenu()">Cerftificaciones</a>
+                <a href="#objetivo" onclick="toggleMenu()">Mi Objetivo</a>
+                <a href="https://api.whatsapp.com/send?phone=5492932612097" onclick="toggleMenu()">Contactame</a>
             </nav>
          </div>
     </header>
@@ -32,6 +33,7 @@
         </div>
         <img src="img/Perfil.jpg">
     </section>
+    <br id="servicio">
     <section class="servicios">
         <h2 class="hidden">Mis Servicios</h2>
         <div class="servicio-art">
@@ -80,7 +82,8 @@ Dentro de un club, conformo la triada con el Técnico y el Preparador físico co
             Mi enfoque se basa en ayudarte a conocerte mejor, identificar tu fortalezas y debilidades, gustos y habilidades, para luego explorar las opciones laborales que mejor se ajusten a ti. Nuestra colaboración podría incluir varias etapas desde la exploración de intereses hasta el diseño de un plan de acción para alcanzar tus metas profesionales.
             Como coach, me enfoco en escucharte y hacer preguntas pertinentes para descubrir tus motivaciones, desafíos y metas a largo plazo. Utilizo herramientas y técnicas de coaching para ayudarte a desarrollar habilidades como la toma de decisiones y la gestión del tiempo además de fortalecer tus habilidades de comunicación y liderazgo.
             Espero poder acompañarte en este camino tan importante para ti y ayudarte a alcanzar la satisfacción laboral y la realización personal que mereces.
-             Si estás listo para empezar a trabajar juntos, <a href="https://api.whatsapp.com/send?phone=5492932612097">¡contáctame!</a></p>
+             Si estás listo para empezar a trabajar juntos.</p>
+             <button><a href="https://api.whatsapp.com/send?phone=5492932612097">¡contáctame!</a></button>
         </div>
         
     </section>
