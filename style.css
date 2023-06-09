@@ -9,7 +9,7 @@ section{
 }
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     height: 90px;
@@ -266,7 +266,7 @@ footer{
     .logo img{
         height: 150px;
         width: 150px;
-        padding-left:100px ;
+        padding-left:50px ;
         padding-top: 15px;
     }
     .banner{
