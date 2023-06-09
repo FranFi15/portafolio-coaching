@@ -28,8 +28,9 @@ header{
     cursor: pointer;
 }
 .logo img{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
+    padding-top: 25px;
 }
 .links{
     display: flex;
@@ -129,10 +130,11 @@ header{
     line-height: 30px;
 }
 .sobre-mi button{
-    background-color: green;
+    background-color:#5015bd;
     border-radius: 20px;
     border-style: none;
-    padding: 10px;
+    padding: 10px 15px;
+    margin-bottom: 50px;
 }
 .sobre-mi a{
     text-decoration: none;
@@ -261,17 +263,23 @@ footer{
         margin: 0;
         width: 100%;
     }
+    .logo img{
+        height: 150px;
+        width: 150px;
+        padding-left:100px ;
+        padding-top: 15px;
+    }
     .banner{
         text-align: center;
         flex-direction: column-reverse;
-        justify-content: space-around;
         align-items: center;
         padding-bottom: 0;
         height: 100vh;
     }
     .banner h2{
+        margin: 50px 0 0 0;
         font-size: 40px;
-        margin: 0;
+        
     }
     .banner h3 {
         font-size: 18px;
