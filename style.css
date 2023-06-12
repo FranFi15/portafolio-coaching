@@ -278,7 +278,7 @@ footer{
     }
     .banner h2{
         margin: 50px 0 0 0;
-        font-size: 40px;
+        font-size: 30px;
         
     }
     .banner h3 {
@@ -294,7 +294,7 @@ footer{
         height: 100%;
     }
     .servicios h2{
-        font-size: 40px;
+        font-size: 30px;
         margin-left: 0;
     }
     .servicio-art{
@@ -312,7 +312,7 @@ footer{
         font-size: 16px;
     }
     .certificados h2{
-        font-size: 40px;
+        font-size: 30px;
         margin-left: 0;
     }
     .certificados img{
@@ -325,7 +325,7 @@ footer{
         width: 100%;
     }
     .sobre-mi h2{
-        font-size: 40px;
+        font-size: 30px;
         margin-left: 0;
     }
     .sobre-mi p{
